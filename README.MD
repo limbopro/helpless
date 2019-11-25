@@ -8,8 +8,16 @@ fork https://github.com/limbopro/helpless 仓库；不会 Fork ? 参考：[Githu
 
 1.进入 `fork` 后的`仓库`，找到并修改 `unblockremote.js` 脚本文件；
 2.填写你的`设备ID`；（`设备ID`在哪？进入QuantumltX，点击右下角三菱按钮，点击右上角 `...` 更多按钮，滑至底部`关于`，即可找到设备ID）；
-3.修改后，点击`commit changes` 以保存此更改；
 
+```
+var body = $response.body;
+body = '\/*\n@supported 你的QuantumultX设备ID填这里\n*\/\n' + body;
+
+$done(body);
+
+```
+
+3.修改后，点击`commit changes` 以保存此更改；
 
 
 ### 下载 unblockremote.js
