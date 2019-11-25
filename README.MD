@@ -2,13 +2,8 @@
 
 fork https://github.com/limbopro/helpless 仓库；不会 Fork ? 参考：[Github 入门- fork 他人仓库](https://limbopro.xyz/archives/3856.html#fork他人仓库)
 
-[![Fork.png](https://limbopro.xyz/usr/uploads/2019/11/497686738.png)](https://limbopro.xyz/usr/uploads/2019/11/497686738.png)
-
-
 
 ### 修改 1.0.3-remote.js
-
-[![修改1.0.3-remote.js](https://limbopro.xyz/usr/uploads/2019/11/4183441010.png)](https://limbopro.xyz/usr/uploads/2019/11/4183441010.png)
 
 1.进入 `fork` 后的`仓库`，找到并修改 `1.0.3-remote.js` 脚本文件；
 2.填写你的`设备ID`；（`设备ID`在哪？进入QuantumltX，点击右下角三菱按钮，点击右上角 `...` 更多按钮，滑至底部`关于`，即可找到设备ID）；
