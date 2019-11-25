@@ -19,11 +19,11 @@ $done(body);
 
 
 ### 下载 unblockremote.js
-0.如果会用WorkingCopy同步仓库到本地就更好，不会则按下面步骤操作；
+0.如果会用WorkingCopy同步仓库到本地就更好，不会则继续按下面步骤操作；
 1.复制并在浏览器中打开进行下载，`https://github.com/你的github用户名/helpless/archive/master.zip`；
 2.拷贝/或保存`helpless-master.zip`至`我的iPhone`-`Quantumult X` - `Scripts` 文件夹下；
 3.解压缩 `helpless-master.zip`；
-
+4.解压后得到`helpless-master`文件夹；
 
 
 ### 配置 rewrite_local
