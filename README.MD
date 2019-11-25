@@ -13,9 +13,9 @@ fork https://github.com/limbopro/helpless 仓库；不会 Fork ? 参考：[Githu
 
 
 ### 下载1.0.3-remote.js
-
+0.如果会用WorkingCopy同步仓库到本地就更好，不会则按下面步骤操作；
 1.复制并在浏览器中打开进行下载，`https://github.com/你的github用户名/helpless/archive/master.zip`；
-2.拷贝/或保存`helpless-master.zip`至`Quantumult X` - `Scripts` 文件夹下；
+2.拷贝/或保存`helpless-master.zip`至`我的iPhone`-`Quantumult X` - `Scripts` 文件夹下；
 3.解压缩 `helpless-master.zip`；
 
 
