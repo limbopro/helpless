@@ -12,9 +12,7 @@ fork https://github.com/limbopro/helpless 仓库；不会 Fork ? 参考：[Githu
 ```
 var body = $response.body;
 body = '\/*\n@supported 你的QuantumultX设备ID填这里\n*\/\n' + body;
-
 $done(body);
-
 ```
 
 3.修改后，点击`commit changes` 以保存此更改；
