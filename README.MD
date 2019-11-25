@@ -4,15 +4,15 @@
 fork https://github.com/limbopro/helpless 仓库；不会 Fork ? 参考：[Github 入门- fork 他人仓库](https://limbopro.xyz/archives/3856.html#fork他人仓库)
 
 
-### 修改 1.0.3-remote.js
+### 修改 unblockremote.js
 
-1.进入 `fork` 后的`仓库`，找到并修改 `1.0.3-remote.js` 脚本文件；
+1.进入 `fork` 后的`仓库`，找到并修改 `unblockremote.js` 脚本文件；
 2.填写你的`设备ID`；（`设备ID`在哪？进入QuantumltX，点击右下角三菱按钮，点击右上角 `...` 更多按钮，滑至底部`关于`，即可找到设备ID）；
 3.修改后，点击`commit changes` 以保存此更改；
 
 
 
-### 下载1.0.3-remote.js
+### 下载 unblockremote.js
 0.如果会用WorkingCopy同步仓库到本地就更好，不会则按下面步骤操作；
 1.复制并在浏览器中打开进行下载，`https://github.com/你的github用户名/helpless/archive/master.zip`；
 2.拷贝/或保存`helpless-master.zip`至`我的iPhone`-`Quantumult X` - `Scripts` 文件夹下；
@@ -25,14 +25,14 @@ fork https://github.com/limbopro/helpless 仓库；不会 Fork ? 参考：[Githu
 编辑QuantumultX 配置文件 ，找到 [rewrite_local]，并在 [rewrite_local] 添加：
 
 ```
-^https:\/\/(raw.githubusercontent|\w+\.github)\.(com|io)\/.*\.js$ url script-response-body helpless-master/1.0.3-remote.js
+^https:\/\/(raw.githubusercontent|\w+\.github)\.(com|io)\/.*\.js$ url script-response-body helpless-master/unblockremote.js
 ```
 
 添加后效果：
 
 ```
 [rewrite_local]
-^https:\/\/(raw.githubusercontent|\w+\.github)\.(com|io)\/.*\.js$ url script-response-body helpless-master/1.0.3-remote.js
+^https:\/\/(raw.githubusercontent|\w+\.github)\.(com|io)\/.*\.js$ url script-response-body helpless-master/unblockremote.js
 ```
 
 
